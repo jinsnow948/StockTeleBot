@@ -1,0 +1,17 @@
+{
+    "__db_info__" : "this is db info",
+    "MYSQL_HOST": "localhost",
+    "MYSQL_USER": "root",
+    "MYSQL_PASSWORD": "root123",
+    "MYSQL_DB": "mydb",
+    "__api_info__" : "this is api info",
+    "api_id": 22518902,
+    "api_hash": "b9627afd7477b88ecf57e8213d085630",
+    "session_name": "pinkyBot",
+    "__ex)end_date__" : "now - timedelta(days=x)",
+    "end_date": 0,
+    "__ex)start_date__" : "end_date - timedelta(days=X)",
+    "start_date": 30,
+    "channel_name1" : "wemakebull",
+    "channel_name2" : "characteristicstock"
+}
