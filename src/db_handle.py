@@ -42,10 +42,11 @@ def create_table_stock_issues(conn):
     create_table_query = """
     CREATE TABLE IF NOT EXISTS stock_issues (
         report_time DATETIME NOT NULL,
-        title VARCHAR(255) NOT NULL,
-        stock_name VARCHAR(255) NOT NULL,
-        news_link VARCHAR(255),
+        title VARCHAR(400) NOT NULL,
+        stock_name VARCHAR(255) NOT NULL,        
         news_content TEXT,
+        news_link VARCHAR(600),
+        channel_name VARCHAR(255),
         PRIMARY KEY (report_time, title, stock_name)
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
     """
